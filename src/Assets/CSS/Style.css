@@ -1,0 +1,408 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* App.js */
+.search-event {
+    position: relative;
+    top: -40px;
+}
+
+/* header section */
+#navbar_section,
+.carousel-item,
+#shadules,
+#createEvent,
+#brandsSection {
+    padding: 3% 15%;
+}
+
+/* Background */
+.inner_background {
+    background-image: url('../Images/bg_image.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+
+.outer_background {
+    background: linear-gradient(118.98deg, #ED4690 -2.11%, #5522CC 63.58%);
+    height: fit-content;
+    opacity: 0.9;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+
+/* Navbar */
+
+.nav-item {
+    font-family: DM Sans, "Poppins";
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 20.83px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav-item.login {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 0px 15px;
+}
+
+/* Home Page Content */
+/* image */
+.home_pageImage img {
+    width: 100%;
+}
+
+/* text */
+.text-container {
+    margin-top: 3%;
+}
+
+.text-container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 48.72px;
+    text-align: left;
+}
+
+.text-container p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+}
+
+/* button */
+.pink_button,
+.light_button,
+.outline_blue_btn,
+.image_contianer button,
+.email {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.pink_button,
+.image_contianer button {
+    background-color: #F5167E;
+    border: 1px solid #F5167E;
+}
+
+.light_button {
+    background-color: inherit;
+    border: 1px solid #fff;
+    margin-left: 20px;
+}
+
+/* search Section */
+#search_section {
+    padding: 1% 3%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #242565;
+}
+
+.event {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    border-bottom: 1px solid;
+    margin-left: 30px;
+}
+
+.dropdown-toggle{
+    margin-left: 10px;
+}
+
+/* shadules section */
+ul,
+li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px 20px 0px 0px;
+}
+
+.grow {
+    display: flex;
+    flex-grow: 1;
+}
+
+.dropdown_menu button {
+    border-radius: 50px;
+    text-align: center;
+    background-color: #F2F4FF;
+    padding: 10px 30px;
+    margin-left: 10px;
+}
+
+/* card */
+.card_box {
+    border-radius: 20px;
+    box-shadow: 1px 10px 12px 5px #e2e3e5;
+    box-sizing: border-box;
+    margin: 20px 5px;
+}
+
+.card_image {
+    width: 100%;
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.content div {
+    padding: 0px 10px;
+    text-align: left;
+}
+
+/* card text */
+.date p {
+    color: #3D37F1;
+    font-size: 0.7rem;
+}
+
+.date h1 {
+    font-size: 1.7rem;
+    line-height: 0;
+}
+
+.text_content h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.text_content p {
+    font-size: 0.8rem;
+}
+
+.outline_blue_btn {
+    color: #3D37F1;
+    background-color: inherit;
+    border: 1px solid #3D37F1;
+    margin: 30px 0px 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Create Event Section */
+#createEvent {
+    background-color: #EEE1FF;
+}
+
+.image_contianer img {
+    position: relative;
+    top: -65px;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.image_contianer h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.image_contianer p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.image_contianer button {
+    padding: 10px 90px;
+    display: inline-block;
+}
+
+/* brand Section */
+.brand h1,
+.blog {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #242565;
+    line-height: 2;
+    text-align: center;
+}
+
+.brand p,
+.blog_paragrahp {
+    color: #6A6A6A;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.partnership {
+    margin: 7% 0%;
+}
+
+.partnership img {
+    width: 10%;
+    margin: 1% 5%;
+    display: inline-block;
+}
+
+/* blog section */
+#blogSection {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.card_box2 {
+    margin-top: 8%;
+}
+
+.header_part {
+    color: #242565;
+    font-size: 1.25rem;
+}
+
+.first_paragraph {
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.second_paragraph {
+    font-size: 0.8rem;
+    color: #A5A5A5;
+}
+
+/* Footer section */
+#footerSection {
+    padding: 3% 10%;
+    background-color: #0A075F;
+}
+
+.footer_section {
+    width: 100%;
+    margin: auto;
+}
+
+.footer_paragraph,
+.copy {
+    font-size: 0.8rem;
+}
+
+.footer_paragraph {
+    font-weight: 100;
+    line-height: 2;
+    margin-top: 8%;
+}
+
+.footer_section h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    margin: 0px 10px 30px;
+}
+
+.row .footer_section div {
+    margin-right: 30px;
+}
+
+.copy {
+    text-align: center;
+    color: #FEFEFE;
+    border-top: 0.5px solid #4C4D8B;
+    margin: 10px 0px;
+    line-height: 5;
+}
+
+.input {
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+}
+
+.email {
+    width: 15%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 14px 4px;
+    box-sizing: border-box;
+}
+
+
+@media(max-width: 767px) {
+    .image_contianer {
+        text-align: center;
+    }
+}
+
+@media(max-width:939px) {
+    .dropdown_menu button {
+        margin-left: 0;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .text-container,
+    .text-container h1,
+    .carousel-item p,
+    .footer_section {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .nav-item.login {
+        border: none;
+        margin-left: 0;
+    }
+
+    .email_btn {
+        margin-bottom: 15px;
+    }
+
+    .footer_section {
+        width: 50%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .footer_section h3 {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .footer_paragraph {
+        margin-top: 0%;
+    }
+
+
+}

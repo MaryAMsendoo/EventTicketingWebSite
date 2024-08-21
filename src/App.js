@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import '../src/Assets/CSS/Style.css';
+import HomePage from './Conponents/HomePageComponent';
+import SearchEvent from './Conponents/SearchEvent';
+import Shadules from './Conponents/Shadules';
+import CreateEvent from './Conponents/CreateEvent';
+import BrandsSection from './Conponents/BrandsSection';
+import BlogSection from './Conponents/BlogSection';
+import FooterSection from './Conponents/FooterSection';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div>
+   <div id='HomePage'>
+   <HomePage />
+   </div>
+   <div className='search-event'>
+   <SearchEvent />
+   </div>
+   <div id='shadules'>
+    <Shadules />
+   </div>
+   <div id='createEvent'>
+    <CreateEvent />
+   </div>
+   <div id='brandsSection'>
+    <BrandsSection />
+   </div>
+   <div id='blogSection'>
+    <BlogSection />
+   </div>
+   <div id='footerSection'>
+    <FooterSection />
+   </div>
+  </div>
 }
 
 export default App;
