@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "%3CMaryAMsendoo%3E.github.io/%3CEventTicketingWebSite%3E/precache-manifest.b816481a29d1b5b2933ca4a4b625c434.js"
+  "/EventTicketingWebSite/precache-manifest.30eebda3486ccd3af9674bdcd2bbed30.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("%3CMaryAMsendoo%3E.github.io/%3CEventTicketingWebSite%3E/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/EventTicketingWebSite/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
