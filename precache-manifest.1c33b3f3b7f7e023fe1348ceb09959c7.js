@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a1f30a7b0ceb0e903b30033ec92ca45",
+    "revision": "53083578ff5c0ae5e0ad1e1b2b9074be",
     "url": "/EventTicketingWebSite/index.html"
   },
   {
-    "revision": "bbd763ea6df170f3bf3f",
-    "url": "/EventTicketingWebSite/static/css/main.68cee388.chunk.css"
+    "revision": "552fdd8db60594a69c03",
+    "url": "/EventTicketingWebSite/static/css/main.bd277a49.chunk.css"
   },
   {
     "revision": "f4ca4c8583af9260c5e9",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EventTicketingWebSite/static/js/3.cf2aeaea.chunk.js"
   },
   {
-    "revision": "bbd763ea6df170f3bf3f",
+    "revision": "552fdd8db60594a69c03",
     "url": "/EventTicketingWebSite/static/js/main.768f6574.chunk.js"
   },
   {
