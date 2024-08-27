@@ -36,8 +36,8 @@ function FooterSection() {
                     <h3>Stay in the loop</h3>
                     <p class="footer_paragraph"> Join our mailing list to stay in the loop with our newest
                         for Event and concert</p>
-                    <span class="email"><input class="input" type="email" placeholder="Enter your email address.."></input>
-                        <button class="pink_button">Subscribe Now</button></span>
+                    <span className="email"><input className="input" type="email" placeholder="Enter your email address.."></input>
+                        <button className="pink_button">Subscribe Now</button></span>
                 </div>
 
                 {/* <!-- @copy --> */}

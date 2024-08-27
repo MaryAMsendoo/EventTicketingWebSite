@@ -100,7 +100,7 @@ body {
 .pink_button,
 .image_contianer button {
     background-color: #F5167E;
-    border: 1px solid #F5167E;
+    border: 3px solid #F5167E;
 }
 
 .light_button {
@@ -277,6 +277,14 @@ li {
 
 .card_box2 {
     margin-top: 8%;
+    padding: 1% 5%;
+}
+.card_box .text_content{
+    margin-left: 20px;
+}
+
+.card_box img{
+    width: 100%;
 }
 
 .header_part {
@@ -356,6 +364,92 @@ li {
     box-sizing: border-box;
 }
 
+@media(max-width:381px){
+    /* home page */
+    .text-container h1 {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+    /* create event */
+    .image_contianer button {
+        padding: 8px 80px;
+       flex-wrap: nowrap;
+    }
+    
+    .image_contianer img {
+        width: 70%;
+        top: -40px;
+    }
+    /* brand section */
+    #brandsSection {
+        padding: 3% 9%;
+    }
+    .brand h1{
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+/* blog section */
+#blogSection{
+    padding: 3% 15%;
+}
+/* footer section */
+#footerSection {
+    padding: 3% 5%;
+}
+}
+
+@media(max-width: 495px){
+    .email {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: inherit;
+        border: none;
+    }
+
+    .email input{
+        background-color: #EEE1FF;
+        padding: 5px 10px;
+
+    }
+    .email button{
+        padding: 5px 3px;
+    }
+    .copy {
+        line-height: 2;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+@media(max-width:451px){
+    #search_section {
+        padding: 2% 5%;
+        flex-direction: column;
+        width: 75%;
+        text-align: center;
+    }
+    .event {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 13px;
+        width: 100%;
+        display: block;
+    }
+     .event p{
+        line-height: 0;
+        margin-top: 20px;
+    }
+    
+    .dropdown-toggle{
+        margin-left: 17px;
+    }
+}
 
 @media(max-width: 767px) {
     .image_contianer {
@@ -370,8 +464,24 @@ li {
     }
 }
 
-@media (max-width: 991px) {
+@media(max-width:679px){
+    ul, li{
+        flex-direction: column;
+        padding: 2px;
+    }
+}
 
+@media(min-width:680px){
+    ul,
+li {
+    flex-direction: row;
+    padding: 3px;
+}
+
+}
+
+@media (max-width: 991px) {
+    
     .text-container,
     .text-container h1,
     .carousel-item p,
