@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/EventTicketingWebSite/static/css/main.bd277a49.chunk.css",
-    "main.js": "/EventTicketingWebSite/static/js/main.768f6574.chunk.js",
-    "main.js.map": "/EventTicketingWebSite/static/js/main.768f6574.chunk.js.map",
+    "main.css": "/EventTicketingWebSite/static/css/main.e8855f01.chunk.css",
+    "main.js": "/EventTicketingWebSite/static/js/main.c427dd52.chunk.js",
+    "main.js.map": "/EventTicketingWebSite/static/js/main.c427dd52.chunk.js.map",
     "runtime~main.js": "/EventTicketingWebSite/static/js/runtime~main.25abcb6d.js",
     "runtime~main.js.map": "/EventTicketingWebSite/static/js/runtime~main.25abcb6d.js.map",
     "static/js/2.ee292020.chunk.js": "/EventTicketingWebSite/static/js/2.ee292020.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.cf2aeaea.chunk.js": "/EventTicketingWebSite/static/js/3.cf2aeaea.chunk.js",
     "static/js/3.cf2aeaea.chunk.js.map": "/EventTicketingWebSite/static/js/3.cf2aeaea.chunk.js.map",
     "index.html": "/EventTicketingWebSite/index.html",
-    "precache-manifest.1c33b3f3b7f7e023fe1348ceb09959c7.js": "/EventTicketingWebSite/precache-manifest.1c33b3f3b7f7e023fe1348ceb09959c7.js",
+    "precache-manifest.0decacb8da507a63f0e2521e8981f512.js": "/EventTicketingWebSite/precache-manifest.0decacb8da507a63f0e2521e8981f512.js",
     "service-worker.js": "/EventTicketingWebSite/service-worker.js",
-    "static/css/main.bd277a49.chunk.css.map": "/EventTicketingWebSite/static/css/main.bd277a49.chunk.css.map",
+    "static/css/main.e8855f01.chunk.css.map": "/EventTicketingWebSite/static/css/main.e8855f01.chunk.css.map",
     "static/media/Outer-image.svg": "/EventTicketingWebSite/static/media/Outer-image.48871cd3.svg",
     "static/media/Rectangle 12 (1).png": "/EventTicketingWebSite/static/media/Rectangle 12 (1).fc1f97e3.png",
     "static/media/Rectangle 12 (2).png": "/EventTicketingWebSite/static/media/Rectangle 12 (2).c5ca6494.png",
